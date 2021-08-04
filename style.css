@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  background: hsl(0, 0%, 98%);
+  color: hsl(229, 6%, 66%);
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3em 0;
+  max-width: 1400px;
+}
+
+header {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  max-width: 550px;
+  margin-bottom: 3em;
+}
+
+.tools-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tools-section>div {
+  flex: 0 0 32%;
+}
+
+.tool-card {
+  padding: 2em;
+  background: #fff;
+  border-radius: .5em;
+  margin-top: 2em;
+}
+
+.tool-card p {
+  margin-top: .8em;
+  font-size: .9rem;
+}
+
+.tool-card img {
+  margin-top: 3em;
+  width: 60px;
+}
+
+.tool-icon-wrapper {
+  text-align: right;
+}
+
+.sub-heading {
+  font-weight: 200;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2.3rem;
+}
+
+h1, h3 {
+  color: hsl(234, 12%, 34%);
+}
+
+.team-builder {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.supervisor {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+@media only screen and (max-width: 768px) {
+  .tools-section {
+    flex-direction: column;
+  }
+
+  main {
+    width: 85%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
