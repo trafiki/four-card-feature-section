@@ -43,6 +43,7 @@ header {
   background: #fff;
   border-radius: .5em;
   margin-top: 2em;
+  box-shadow: 0px 2px 20px 1px hsl(212deg 86% 64% / 20%);
 }
 
 .tool-card p {
